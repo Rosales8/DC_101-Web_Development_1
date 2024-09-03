@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biography</title>
+</head>
+<body>
+    <div>
+        <h1>My Bio</h1>
+        <img src="C:\Users\sheni\Downloads\a3243259-3fa7-4bd0-a33a-ca578170a0f3.jpg" alt="Your Picture" width="150">
+        <p>Hello! Sheniel Gabrielle De Castro. I`m currently taking up BS Computer Science in Kolehiyo ng Lungsod ng Lipa.</p>
+    </div>
+
+    <hr>
+
+    <div>
+        <button onclick="window.open('gabrielle.html', '_blank')">HOME</button>
+        <button onclick="window.location.href='bio.html'">ABOUT</button>
+        <button onclick="openFullScreenWindow('PR.html')">SONG</button>
+    </div>
+
+    <hr>
+
+    <div>
+        <h2>Connect with me:</h2>
+        <p><a href="https://www.facebook.com/shenielgabrielle.decastro.9/" target="_blank">Facebook</a></p>
+        <p><a href="https://github.com/Rosales8 " target="_blank">GitHub</a></p>
+    </div>
+
+    <script>
+        function openFullScreenWindow(url) {
+            var newWindow = window.open(url, '_blank', 'fullscreen=yes');
+            newWindow.focus();
+        }
+    </script>
+</body>
+</html>
